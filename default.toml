@@ -85,10 +85,11 @@ spec_rot_center_type = 1
 spec_rot_center_p = [0.0, 0.0, 0.0]
 
 [specimen_thickness]
-# Energy loss (eV)
+# eTT_Whole_Spec = 1, eTT_Through_Thick = 2, eTT_Through_Slices = 3
 thick_type = 1
-# Collection half angle (mrad)
+# Array of thickness (Angstrom)
 thick = 0.0
+
 
 [potential_slicing]
 # selection rule
